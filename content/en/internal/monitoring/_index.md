@@ -30,25 +30,16 @@ For people not having access to an IGTF client certificate it's possible to
 access Availability and Reliability information on the
 [EGI ARGO page](https://argo.egi.eu/).
 
-### Service Monitoring endpoints
+### Service Monitoring Reports
 
-Different service instances are available for different purposes:
+Different Reorts are available for different purposes:
 
-- [Certified sites](https://argo-mon.egi.eu/nagios/)
-- [Uncertified sites](https://argo-mon-uncert.cro-ngi.hr/nagios/)
+- [Certified sites](https://argo.egi.eu/egi/Critical)
+- [Uncertified sites](https://argo.egi.eu/egi/CriticalUncert)
+- [Operational Tools](https://argo.egi.eu/egi/OPS-MONITOR-Critical)
+- [SLA Report](https://argo.egi.eu/egi/SLA)
 
-The endpoint for uncertified sites is using a certificate from a Certificate
-Authority (CA) that is part of the
-[IGTF distribution](https://dl.igtf.net/distribution/igtf/current/) but that is
-not in the default Operating System and browser stores.
 
-> Your browser may be presenting you a security warning about an unknown CA,
-> it's a known issue with certificate having IGTF trust but not public trust
-> (ie. not by default in the Operating Systems and browsers' trust stores).
-
-If you want to address this you can try to manually download the certificate for
-the ROOT CA and add it to your trust store and mark it as trusted. The exact
-process is dependant on the Operating System and browser that you use.
 
 ### Access rules
 
